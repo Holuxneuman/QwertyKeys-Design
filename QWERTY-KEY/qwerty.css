@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    
+   
+  
+}
+.keyboard {
+    width: 969px;
+    height: 358px;
+    border: 3px solid bisque;
+    border-radius: 8px;
+    background-color: black;
+    margin: 50px auto;
+    padding-left: 6px;
+    padding-top: 7px;
+}
+
+.row1 * {
+    width: 54.2px;
+    height: 30px;
+    float: left;
+    border: 1px groove black;
+    box-shadow: 2px 2px 4px black,
+                -2px -2px 4px;
+    color: bisque;
+    font-size: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.deletekey {
+    width: 62px;
+}
+.row2 * {
+    width: 62px;
+    height: 62px;
+    float: left;
+    border: 1px groove black;
+    box-shadow: 2px 2px 4px black,
+                -2px -2px 4px;
+    Color: bisque;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;            
+}
+.backspace {
+    width: 129px;
+}
+
+.row3 * {
+    width: 62px;
+    height: 62px;
+    float: left;
+    border: 1px groove black;
+    box-shadow: 2px 2px 4px black,
+                -2px -2px 4px;
+    Color: bisque;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Tabkey {
+    width: 94px;
+}
+.slash {
+    width: 97px;
+}
+
+.row4 * {
+    width: 62px;
+    height: 62px;
+    float: left;
+    border: 1px groove black;
+    box-shadow: 2px 2px 4px black,
+                -2px -2px 4px;
+    Color: bisque;
+    font-size: 15px;            
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.capslock {
+    width: 115px;
+}
+.enterkey {
+    width: 140px;
+}
+
+
+.row5 * {
+    width: 61.5px;
+    height: 61.5px;
+    float: left;
+    border: 1px groove black;
+    box-shadow: 2px 2px 4px black,
+                -2px -2px 4px;
+    Color: bisque;
+    font-size: 15px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.shiftkey{
+    width: 136px;
+}
+
+.row6 * {
+    width: 62px;
+    height: 62px;
+    float: left;
+    border: 1px groove black;
+    box-shadow: 2px 2px 4px black,
+                -2px -2px 4px;
+    Color: bisque;
+    font-size: 15px;            
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.spacebarkey {
+    width: 319px;
+}
+.ctrlkey {
+    width: 95px;
+}
+
+#sub {
+    color:brown;
+    font-size: 6px;
+}
